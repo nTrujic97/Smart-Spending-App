@@ -1,0 +1,117 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 40px;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 100px 100px 100px;
+	grid-gap: 10px;
+	background-color: #fff;
+	color: #444;
+	justify-content: space-between;
+}
+
+.h1 {
+	display: flex;
+	justify-content: center;
+	font-size: 250%;
+	color: #008080;
+	font-style: italic;
+}
+
+.box {
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 150%;
+}
+
+.button {
+	padding: 10px;
+	border: 1px solid gray;
+	background-color: #008080;
+	border-radius: 5px;
+	font: inherit;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 350px;
+	font-size: 18px;
+	color: white;
+}
+
+.button:hover {
+	background-color: #7fcdcd;
+	box-shadow: 3px 3px 5px grey;
+	cursor: pointer;
+}
+
+.h1Year {
+	color: #008080;
+	font-size: 200%;
+}
+
+.h3 {
+	color: #008080;
+	font-style: italic;
+	margin: 0;
+}
+
+.currency {
+	font-style: italic;
+	margin: 0;
+}
+
+.currencyAmount {
+	font-weight: bold;
+	margin: 0;
+	font-style: italic;
+	color: forestgreen;
+}
+
+.detailsMessage {
+	display: flex;
+	justify-content: center;
+	color: #008080;
+	font-size: 26px;
+	font-style: italic;
+	margin: 30px;
+}
+
+.resetButton {
+	width: 5%;
+	height: 40px;
+	border: 1px solid gray;
+	background-color: #008080;
+	border-radius: 5px;
+	font: inherit;
+	display: block;
+	color: white;
+}
+
+.resetButton:hover {
+	background-color: #7fcdcd;
+	box-shadow: 3px 3px 5px grey;
+	cursor: pointer;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.navLinkWrapper {
+	display: flex;
+	justify-content: center;
+	margin: 50px;
+}
+
+.navLink {
+	text-decoration: none;
+	color: #008080;
+	font-size: 28px;
+	font-weight: bold;
+}

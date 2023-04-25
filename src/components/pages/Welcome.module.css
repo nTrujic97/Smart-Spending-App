@@ -1,0 +1,62 @@
+.img {
+	width: 20%;
+	display: flex;
+	justify-content: center;
+}
+
+.content {
+	display: flex;
+	justify-content: center;
+}
+
+.h1 {
+	display: flex;
+	justify-content: center;
+	color: #008080;
+	font-size: 70px;
+}
+
+.content h2 {
+	display: flex;
+	justify-content: center;
+	color: #008080;
+	font-size: 40px;
+}
+
+.content p {
+	display: flex;
+	justify-content: center;
+	color: #008080;
+	font-size: larger;
+}
+
+.images {
+	display: flex;
+	justify-content: center;
+}
+
+.dollarimg {
+	width: 15%;
+	height: 40%;
+}
+
+.link {
+	padding: 10px;
+	border: 1px solid gray;
+	background-color: #008080;
+	border-radius: 5px;
+	font: inherit;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+}
+
+.link:hover {
+	background-color: #7fcdcd;
+	box-shadow: 3px 3px 5px grey;
+	cursor: pointer;
+}

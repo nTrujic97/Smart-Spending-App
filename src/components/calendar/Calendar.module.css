@@ -1,0 +1,33 @@
+.calendar {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.nav ul {
+	list-style: none;
+	display: flex;
+	padding: 0;
+}
+
+.nav li {
+	margin: 0 2.5rem 0 2rem;
+	font-size: 1.7rem;
+}
+.nav a,
+.nav a:focus,
+.nav a:hover,
+.nav a.active {
+	color: #008080;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.nav a:active {
+	font-size: 120%;
+	font-weight: bold;
+}
+
+.list {
+	font-style: italic;
+}

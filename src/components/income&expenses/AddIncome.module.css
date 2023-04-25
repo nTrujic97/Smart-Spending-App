@@ -1,0 +1,84 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+	width: 500px;
+}
+
+.form p {
+	margin-top: 20px;
+}
+
+.input {
+	padding: 3px;
+	box-shadow: 3px 3px 5px grey;
+	font-size: 20px;
+	font-weight: 600;
+	width: 240px;
+	height: 40px;
+	margin-bottom: 10px;
+}
+
+.label {
+	color: #008080;
+	font-weight: bold;
+	width: 130px;
+	float: left;
+}
+label:after {
+	content: ": ";
+}
+
+.button {
+	padding: 10px;
+	border: 1px solid gray;
+	background-color: #008080;
+	border-radius: 5px;
+	font: inherit;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 130px;
+	font-size: 18px;
+	color: white;
+}
+
+.button:hover {
+	background-color: #7fcdcd;
+	box-shadow: 3px 3px 5px grey;
+	cursor: pointer;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.h1 {
+	display: flex;
+	justify-content: center;
+	color: #008080;
+}
+
+.errorMessage {
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+	color: crimson;
+	font-weight: bold;
+}
+
+.successMessage {
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+	color: greenyellow;
+	font-weight: bold;
+}
+
+.dollar2 {
+	justify-content: center;
+	display: flex;
+	height: 250px;
+}
